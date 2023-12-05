@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(/src/img/background.jpg) ;
+    background-repeat:no-repeat;
+    background-size: 100% ;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+main .sobre{
+    color: white;
+    width: 100px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+
+main .botoes{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content:space-between; 
+    position: relative;
+    top: 780px;
+}
+
+main .botaoSairConta{
+    background-color: aliceblue;
+    margin-left:     30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.imgUser{
+    margin-top: -2px;
+    background-color: aliceblue;
+}
+
+main .botaoIniciarJogo{ 
+    background-color: gold;
+    margin-right: 30px;
+    width: 200px;
+    border: none; 
+}
+
+main .localizacao{
+   margin-left:5px ;
+}
+
+main .botaoSairConta:hover {
+   background-color: rgb(127, 255, 150);
+   color: rgb(44, 42, 42);
+}
+
+main .botaoIniciarJogo:hover{
+   background-color:rgb(127, 255, 150);
+   color: rgb(44, 42, 42);
+}
