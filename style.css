@@ -3,7 +3,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-image: url(/src/img/background.jpg) ;
+    background-image: url(./src/img/background.jpg) ;
     background-repeat:no-repeat;
     background-size: 100% ;
     font-family: 'Hedvig Letters Sans', sans-serif;
